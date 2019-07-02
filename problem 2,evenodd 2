@@ -1,0 +1,8 @@
+T=int(input())
+if 0<=T<=100:
+    for i in range(T):
+        number=int(input())
+        if len(str(number))<=100 and number%2==0:
+            print("even")
+        elif len(str(number))<=100 and number%2!=0:
+            print("odd")
